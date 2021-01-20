@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Custom apps
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +135,14 @@ STATIC_URL = '/static/'
 
 # Users custom settings
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+'''
+Post
+
+title
+text
+author
+created_date
+published_date
+
+'''
