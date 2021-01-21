@@ -39,9 +39,15 @@
 		<!-- Navbar ends -->
 
 		<div class="container">
+
 			<h2>Hello Django</h2>
 			<h6>Nescode | Published: 21-01-2021</h6>
 			<p>This is my first blog post</p>
+		
+
+			{% for post in posts %}
+				{{ post }}
+			{% endfor %}
 
 		</div> <!-- Container div -->
 
