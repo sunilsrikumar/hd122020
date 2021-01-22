@@ -1,0 +1,15 @@
+body{
+	font-family: 'Fraunces', serif;
+}
+
+/* Title */
+
+a {
+    color: #417690;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F93003;
+    text-decoration: none;
+}
