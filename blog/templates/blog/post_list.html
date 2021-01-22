@@ -40,13 +40,12 @@
 
 		<div class="container">
 
-			<h2>Hello Django</h2>
-			<h6>Nescode | Published: 21-01-2021</h6>
-			<p>This is my first blog post</p>
-		
-
 			{% for post in posts %}
-				{{ post }}
+
+				<h3>{{ post.title }}</h3>
+        <p>Author: {{ post.author }} | Published: {{ post.published_date }}</p>
+        <p>{{ post.text|linebreaksbr }}</p>
+
 			{% endfor %}
 
 		</div> <!-- Container div -->
